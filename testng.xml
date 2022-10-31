@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="QA"/>
+    <listeners>
+        <listener class-name="org.javaPractice.testNG.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Uday">
+        <groups>
+            <run>
+                <exclude name="regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="org.javaPractice.testNG.BasicTestNG" />
+            <class name="org.javaPractice.testNG.DataProviders" />
+            <class name="org.javaPractice.testNG.ParametersTest" />
+            <class name="org.javaPractice.testNG.GroupsTest" />
+        </classes>
+    </test>
+</suite>

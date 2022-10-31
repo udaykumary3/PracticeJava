@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Practise">
+    <test verbose="2" preserve-order="true" name="Testing Practise">
+        <classes>
+            <class name="org.SeleniumPractice.AjaxMouseTest"/>
+            <class name="org.SeleniumPractice.AutoSuggestionDropDown"/>
+            <class name="org.SeleniumPractice.BrokenLinks"/>
+            <class name="org.SeleniumPractice.Calender"/>
+            <class name="org.SeleniumPractice.DragDrop"/>
+            <class name="org.SeleniumPractice.InvokingMultipleWindows"/>
+            <class name="org.SeleniumPractice.JavaScriptExecution"/>
+            <class name="org.SeleniumPractice.LinksCount"/>
+            <class name="org.SeleniumPractice.NestedFrame"/>
+            <class name="org.SeleniumPractice.Pagination"/>
+            <class name="org.SeleniumPractice.PractTables"/>
+            <class name="org.SeleniumPractice.PracticeSel"/>
+            <class name="org.SeleniumPractice.SeleniumFour"/>
+            <class name="org.SeleniumPractice.TablesData"/>
+            <class name="org.SeleniumPractice.WebTableSort"/>
+            <class name="org.SeleniumPractice.WindowHandle"/>
+            <class name="org.SeleniumPractice.filterSearchStream"/>
+            <class name="org.SeleniumPractice.practiseAlert"/>
+            <class name="org.SeleniumPractice.windowPract"/>
+        </classes>
+    </test>
+</suite>
